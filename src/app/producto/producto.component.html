@@ -1,0 +1,38 @@
+<div class="clear"></div>
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th scope="col">Codigo</th>
+    <th scope="col">Marca</th>
+    <th scope="col">Modelo</th>
+    <th scope="col">Tipo</th>
+    <th scope="col">Identificador</th>
+    <th scope="col">Precio Publico</th>
+    <th scope="col">Precio Locatario</th>
+    <th scope="col">Precio Mayoreo</th>
+    <th scope="col">Disponibilidad</th>
+    <th scope="col">L60</th>
+    <th scope="col">L64</th>
+    <th scope="col">L127</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let item of productos">
+      <td>{{item.codigo}}</td>
+      <td>{{item.marca}}</td>
+      <td>{{item.modelo}}</td>
+      <td>{{item.tipo}}</td>
+      <td>{{item.identificador}}</td>
+      <td>{{item.precPub}}</td>
+      <td>{{item.precLocatario}}</td>
+      <td>{{item.precMayoreo}}</td>
+      <td>{{item.cantidadActual}}</td>
+      <td>{{item.l58}}</td>
+      <td>{{item.l64}}</td>
+      <td>{{item.l127}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
