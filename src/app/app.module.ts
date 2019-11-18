@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { ProductoComponent } from './producto/producto.component';
 import { LoginComponent } from './login/login.component';
 import { PuntoventaComponent } from './puntoventa/puntoventa.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductoComponent,
     LoginComponent,
-    PuntoventaComponent
+    PuntoventaComponent,
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

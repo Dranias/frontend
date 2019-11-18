@@ -8,7 +8,6 @@ import {PuntoventaComponent} from './puntoventa/puntoventa.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/appComponent', pathMatch: 'full'  },
-  { path: 'appComponent', component: AppComponent },
   { path: 'productComponent', component: ProductoComponent },
   { path: 'loginComponent', component: LoginComponent },
   {path: 'puntoVenta', component: PuntoventaComponent}
